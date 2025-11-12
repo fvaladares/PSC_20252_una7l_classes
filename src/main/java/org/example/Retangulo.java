@@ -1,6 +1,7 @@
 package org.example;
 
 public class Retangulo {
+    // Atributos da classe (características)
     private double base;
     private double altura;
 
@@ -22,6 +23,8 @@ public class Retangulo {
     public double perimetro() {
         // realiza o cálculo e retorna o valor
         double resultado = 0;
+
+        resultado = (base + altura) * 2;
 
         return resultado;
     }
